@@ -1,0 +1,34 @@
+
+
+--- ALL STEPS HERE: https://docs.sonarqube.org/display/PLUG/SonarJS
+
+1) INSTALLING AND RUNNING SONARQUBE:
+
+- Go to this URL and follow the steps: https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes
+    - RUN: Downloads/sonarqube/bin/[OS]/sonar.sh console (keep it running; dont close terminal)
+    - GO to http://localhost:9000/ and log in:
+        Admin:
+            user: Admin 
+            pass: login
+
+
+2) Download SonarQube Scanner 
+- Create the  sonar-project.properties file inside you project folder:
+    - copy and paste from here: https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+
+
+3) Install plugin through UI on localhost:9000
+    - Remeber to be logged in
+    - Follow the instructcion on how to configure your project, add SonarQube-scanner folder /bin to $PATH
+    - Copy the command to run sonar-scanner command in the project folder
+
+    - https://docs.sonarqube.org/display/SONAR/Installing+a+Plugin
+
+
+
+EXTRA - JENKINS:
+- SonarQube Scanner for Jenkins: https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins
+-(*) SonarQube Integration with Jenkins for Code analysis: https://www.youtube.com/watch?v=jh7utASgKj4
+
+> sudo su
+> su jenkins
