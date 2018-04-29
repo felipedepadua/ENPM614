@@ -41,6 +41,11 @@ https://medium.com/@djangoshelton/ci-cd-pipeline-patterns-for-javascript-part-1-
 
 
 
+---- HOOKING GUTHUB TO JENKINS:
+-> (*) https://medium.com/@marc_best/trigger-a-jenkins-build-from-a-github-push-b922468ef1ae
+    - You dont have to do step 3 (deploy keys is to give acces to ONLY that repository. We've already acces to all github)
+        https://developer.github.com/v3/guides/managing-deploy-keys/
+
 
 ---Troubleshooting:
 Switching to Jenkins user:
