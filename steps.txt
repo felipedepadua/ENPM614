@@ -30,5 +30,27 @@ EXTRA - JENKINS:
 - SonarQube Scanner for Jenkins: https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins
 -(*) SonarQube Integration with Jenkins for Code analysis: https://www.youtube.com/watch?v=jh7utASgKj4
 
+
+(*) SonarQube Integration with Jenkins for Code analysis
+https://www.youtube.com/watch?v=jh7utASgKj4
+
+
+(*) CI / CD Pipeline Patterns For JavaScript (Part 1):
+https://medium.com/@djangoshelton/ci-cd-pipeline-patterns-for-javascript-part-1-df93f6a07dc8
+    - credential ID for pipeline: https://gist.github.com/hayderimran7/78421229af85ae90177b
+
+
+
+
+---Troubleshooting:
+Switching to Jenkins user:
 > sudo su
 > su jenkins
+
+Restart Jenkins: http://localhost:8080/restart
+    - Source: http://damien.co/general/how-to-start-stop-restart-or-reload-jenkins-mac-osx-8022
+
+For some reason, we get an error on Jenkins cuz we need Xcode:
+run > xcode-select --install
+  Source: https://stackoverflow.com/questions/19887445/cannot-use-git-from-terminal
+
