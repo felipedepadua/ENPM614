@@ -7,6 +7,10 @@ var e = [1, 2, 3];
 var f = [1, true, 'a']; 
 var myName = 'Felipe';
 
+function multiply(numerator, denumerator){
+    return numerator * numerator;
+}
+
 var message; 
 message = 'abc';
 var endsWithC = message.concat('d'); 

@@ -1,6 +1,18 @@
+-- ESlint:
+- (*) https://eslint.org/docs/user-guide/getting-started
+
+> npm install -g eslint
+> eslint --init
+> eslint yourfile.js
+
+x 66 problems (66 errors, 0 warnings)
+  34 errors, 0 warnings potentially fixable with the `--fix` option.
+
+  run > eslint --fix (to try to have it fixed automatically)
+        Source: https://eslint.org/docs/user-guide/command-line-interface
 
 
---- ALL STEPS HERE: https://docs.sonarqube.org/display/PLUG/SonarJS
+--- SONARQUBE: ALL STEPS HERE: https://docs.sonarqube.org/display/PLUG/SonarJS
 
 1) INSTALLING AND RUNNING SONARQUBE:
 
@@ -26,7 +38,7 @@
 
 
 
-EXTRA - JENKINS:
+JENKINS:
 - SonarQube Scanner for Jenkins: https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Jenkins
 -(*) SonarQube Integration with Jenkins for Code analysis: https://www.youtube.com/watch?v=jh7utASgKj4
 
@@ -45,6 +57,12 @@ https://medium.com/@djangoshelton/ci-cd-pipeline-patterns-for-javascript-part-1-
 -> (*) https://medium.com/@marc_best/trigger-a-jenkins-build-from-a-github-push-b922468ef1ae
     - You dont have to do step 3 (deploy keys is to give acces to ONLY that repository. We've already acces to all github)
         https://developer.github.com/v3/guides/managing-deploy-keys/
+
+
+--- MAVEN PROJECT JENKINS:
+- followed this video: https://www.youtube.com/watch?v=s73nhwYBtzE
+- You have to install Pipeline Maven Integration Plugin
+    (otherwise you will get withMaven module not found)
 
 
 ---Troubleshooting:
