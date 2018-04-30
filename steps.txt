@@ -18,10 +18,12 @@ x 66 problems (66 errors, 0 warnings)
 
 - Go to this URL and follow the steps: https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes
     - RUN: Downloads/sonarqube/bin/[OS]/sonar.sh console (keep it running; dont close terminal)
+        - Go to folder, then:
+        > ./sonar.sh console
     - GO to http://localhost:9000/ and log in:
         Admin:
-            user: Admin 
-            pass: login
+            user: admin 
+            pass: admin
 
 
 2) Download SonarQube Scanner 
@@ -69,6 +71,10 @@ https://medium.com/@djangoshelton/ci-cd-pipeline-patterns-for-javascript-part-1-
 Switching to Jenkins user:
 > sudo su
 > su jenkins
+
+SET JENKINS USER PASSWORD:
+> sudo passwd jenkins
+This will prompt for you to set a password.
 
 Restart Jenkins: http://localhost:8080/restart
     - Source: http://damien.co/general/how-to-start-stop-restart-or-reload-jenkins-mac-osx-8022
